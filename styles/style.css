@@ -1,0 +1,410 @@
+#header {
+    background-color:#713758;
+    height:105px;
+}
+#header .xiamu0 {
+    position:relative;
+    height:105px;
+    width:100%;
+    margin:0 auto;
+    z-index:100;
+}
+
+#header .logo {
+    float:left;
+    margin:0 0 0 10px;
+    color:white;
+    line-height:80px;
+    font-size: 30px;
+
+}
+
+#header .search {
+    left:300px;
+    top:30px;
+    position:absolute;
+}
+.xiamu1 {
+    position:absolute;
+    top:68px;
+    left:0px;
+    height:37px;
+    line-height:inherit;
+    width:100%;
+    z-index:100;
+    background-color:#152835;
+}
+.xiamu1 .xiamu2{
+    display:inline;
+    float:left;
+    margin-left:25px;
+}
+.xiamu1  .xiamu2 li {
+    display:inline;
+    float:left;
+    margin-right:14px;
+    position:relative;
+    z-index:100;
+}
+.xiamu1  .xiamu2 li a {
+    display:block;
+    padding:0 8px;
+    font-weight:700;
+    color: #ffffff;
+    font-size:14px;
+}
+
+.xiamu3 {
+    background:#ffffff;
+    border:1px solid #B1B1B1;
+    border-top:0;
+    overflow:hidden;
+    position:absolute;
+    top:37px;
+    left:0;
+    width:474px;
+    z-index:1000;
+    display:none;
+}
+.xiamu3 .xiamu4 {
+    float:left;
+    height:auto !important;
+    min-height:100px;
+    padding:10px 12px;
+    width:450px;
+}
+.xiamu3 .xiamu4 dl {
+    float:left;
+    padding:8px 0px;
+    overflow:hidden;
+    border-top:1px dashed #c4c4c4;
+}
+.xiamu3 .xiamu4 dt {
+    float:left;
+    font-weight:bold;
+    line-height:16px;
+    padding:4px 3px;
+    text-align:center;
+    width:76px;
+}
+.xiamu3 .xiamu4 dd {
+    float:left;
+    overflow:hidden;
+    padding:0;
+    width:360px;
+}
+#content {
+    clear: left;
+    margin: 0 auto;
+    position:relative;
+    width:100%;
+}
+.xiamu5 {
+    height:100%;
+    overflow:hidden;
+    padding:10px 0;
+}
+#myShop0 {
+    float:left;
+    height:560px;
+    margin:0 11px 0 0;
+    overflow: hidden;
+    width:17%;
+}
+#myShop1 {
+    float:left;
+    height:320px;
+    margin:0 11px 0 0;
+    overflow: hidden;
+    width:50%;
+    position:relative
+}
+#myShop2 {
+    float:left;
+    height:320px;
+    overflow: hidden;
+    width:25%;
+}
+#myShop3 {
+    float:left;
+    height:230px;
+    margin:10px 0 0;
+    overflow: hidden;
+    width:76%;
+}
+#myShop0 h2{
+    height:30px;
+    line-height:30px;
+    color:#fff;
+    font-size:12px;
+    text-indent:13px;
+    background-color: #1D364B;
+}
+.xiamu6 {
+    border:1px solid #6e6e6e;
+    border-style:none solid solid;
+    border-width:0 1px 1px;
+    height:524px;
+    overflow:hidden;
+    padding:5px 10px 0;
+}
+.xiamu6 h3{
+    height:0px;
+    line-height:0px;
+    width:164px;
+}
+.xiamu6 ul {
+    float:left;
+    padding:0 2px 8px;
+}
+.xiamu6 li{
+    color: #1D364B;
+    float:left;
+    height:24px;
+    line-height:24px;
+    width:79px;
+    overflow:hidden;
+    position:relative;
+    font-size:15px;
+}
+.xiamu6 li a{
+    color:#1D364B;
+}
+.xiamu li a:hover{
+    color:#1D364B;
+    text-decoration: none;
+}
+.xiamu6 li a.promoted{
+     color:#1D364B;
+ }
+.xiamu6 li .hot{
+    background-color:#1D364B;
+    height:16px;
+    position:absolute;
+    top:0;
+    width:21px;
+}
+#myShop1  img{
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+}
+#myShop1 div{
+    bottom:0;
+    overflow:hidden;
+    position:absolute;
+    float:left;
+    width:100%;
+}
+#myShop1 div a{
+    background-color:#1D364B;
+    color:#ffffff;
+    display:inline-block;
+    float:left;
+    height:32px;
+    margin-right:1px;
+    overflow: hidden;
+    padding:5px 51px;
+    text-align:center;
+    width:17%;
+}
+#myShop1 div a:hover{
+    text-decoration: none;
+}
+#myShop1 div a em {
+    cursor:pointer;
+    display:block;
+    height:16px;
+    overflow: hidden;
+    width:80px;
+}
+#myShop1 .last{
+    margin: 0;
+    width:80px;
+}
+#myShop4 {
+    float:left;
+    height:176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width:99%;
+}
+#myShop5 {
+     float:left;
+     border:1px solid #1D364B;
+     height:132px;
+     overflow: hidden;
+     width:99%;
+ }
+#myShop5  h2{
+    height:23px;
+    line-height:23px;
+    border-bottom:1px solid #1D364B;
+    text-indent:12px;
+}
+#myShop5 ul {
+    float:left;
+    padding:6px 2px 0 12px;
+}
+#myShop5 li {
+    height:20px;
+    line-height:20px;
+    overflow: hidden;
+}
+#myShop5 li a {
+    color:#1D364B;
+}
+#myShop5 li a:hover{
+    color:#1D364B;
+    text-decoration: none;
+}
+#myShop6 {
+    border-bottom:1px solid #1D364B;
+    height:29px;
+    positive:relative;
+    width:100%;
+    float:left;
+}
+#myShop6 h2{
+    height:29px;
+    line-height:0px;
+    position:absolute;
+    width:auto;
+}
+#myShop6 ul{
+    margin-left: 490px;
+    margin-top:7px;
+    width:600px;
+}
+#myShop6 li{
+    float:left;
+    margin:0 10px 0 0;
+}
+#myShop6 li a {
+    background-color: #e3e3e3;
+    color:#000000;
+    display:inline-block;
+    height:20px;
+    line-height:20px;
+    padding:0 10px;
+}
+#myShop7{
+    float:left;
+    height:188px;
+    overflow:hidden;
+    margin:8px 5px;
+    width:100%;
+    position:relative;
+}
+#myShop8{
+    position:absolute;
+    left:0;
+    top:0;
+    width:3200px;
+}
+#myShop7 li{
+    float:left;
+    height:188px;
+    overflow: hidden;
+    padding:0 5px;
+    position:relative;
+    width:185px;
+}
+#myShop7 li img{
+    left:5px;
+    position:absolute;
+    top:0;
+}
+#myShop7 li span{
+    background-color: #efefef;
+    bottom:0;
+    color:#666666;
+    display:block;
+    font-size:14px;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    position:absolute;
+    text-align: center;
+    width:150px;
+    margin-bottom: 11px;
+}
+#myShop7 li a {
+    color:#666666;
+}
+#myShop7 li a:hover{
+    color:#713758;
+    text-decoration:none;
+}
+#myShop9{
+    float:left;
+    width:35%;
+    height:560px;
+    display:inline;
+}
+#myShop10 {
+    float:left;
+    display:inline;
+    overflow: hidden;
+    width:25%;
+    padding-left:20px;
+}
+#myShop9 .xiamu9{
+    border:1px solid #1D364B;
+    cursor:pointer;
+    float:left;
+    padding:0;
+    position:relative;
+}
+.tab{
+    clear:both;
+    float:left;
+    height:300px;
+    overflow:hidden;
+    width:100%;
+}
+.tab.tab_menu {
+    clear:both;
+}
+.tab .tab_menu li {
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    list-style:none;
+    padding:1px 6px;
+    margin-right:4px;
+    background: #f1f1f1;
+    border:1px solid #1D364B;
+    border-bottom:none;
+}
+.tab .tab_menu li .hover {
+    background:#1D364B;
+}
+.tab .tab_menu li .selected{
+    color: #ffffff;
+}
+.tab .tab_box{
+    clear:both;
+    border:1px solid #1D364B;
+}
+.tab .hide{
+    display:none;
+}
+#myShop10 .pro_size li{
+    display:block;
+    margin-right: 6px;
+    border: 1px solid #1D364B;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+#myShop10 li{
+    line-height: 25px;
+    float: left;
+    width: 100%;
+}
